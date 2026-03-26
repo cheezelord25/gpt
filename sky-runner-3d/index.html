@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky Runner 3D</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <h1>Sky Runner 3D</h1>
+      <p>WASD / Arrow Keys to move, Mouse to look, Space to jump</p>
+      <p>Collect all coins and avoid red danger blocks.</p>
+      <p><strong>Score:</strong> <span id="score">0</span> / 8</p>
+      <p id="status">Click to start</p>
+      <button id="restart" hidden>Play Again</button>
+    </div>
+
+    <div id="crosshair">+</div>
+
+    <script src="https://unpkg.com/three@0.164.1/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.164.1/examples/js/controls/PointerLockControls.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
