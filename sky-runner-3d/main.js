@@ -1,5 +1,3 @@
-import * as THREE from "https://unpkg.com/three@0.164.1/build/three.module.js";
-import { PointerLockControls } from "https://unpkg.com/three@0.164.1/examples/jsm/controls/PointerLockControls.js";
 
 const scoreEl = document.getElementById("score");
 const statusEl = document.getElementById("status");
@@ -21,7 +19,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 document.body.appendChild(renderer.domElement);
 
-const controls = new PointerLockControls(camera, renderer.domElement);
+
 scene.add(controls.getObject());
 
 const hemi = new THREE.HemisphereLight(0xffffff, 0x7ea06f, 1.15);
