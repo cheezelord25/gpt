@@ -15,9 +15,7 @@ A lightweight browser game built with HTML/CSS/JS + Three.js.
 
 This starts a local server and opens your browser.
 
-## Manual run
-
-Open `index.html` in a modern browser (including directly from ChromeOS Files app).
+## Manual run>>>>>>> main
 
 For best pointer-lock behavior, serve locally:
 

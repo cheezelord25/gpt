@@ -1,3 +1,4 @@
+
 const scoreEl = document.getElementById("score");
 const statusEl = document.getElementById("status");
 const restartBtn = document.getElementById("restart");
@@ -18,7 +19,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 document.body.appendChild(renderer.domElement);
 
-const controls = new THREE.PointerLockControls(camera, renderer.domElement);
+
 scene.add(controls.getObject());
 
 const hemi = new THREE.HemisphereLight(0xffffff, 0x7ea06f, 1.15);
